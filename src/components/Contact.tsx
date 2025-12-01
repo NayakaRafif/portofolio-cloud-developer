@@ -8,15 +8,15 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "email@example.com",
-      href: "mailto:email@example.com",
+      value: "nayakarafif@gmail.com",
+      href: "mailto:nayakarafif@gmail.com",
       color: "primary",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "LinkedIn Profile",
-      href: "#",
+      value: "Nayaka Rafif",
+      href: "https://www.linkedin.com/in/nayaka-rafif-18562117b/",
       color: "primary",
     },
     {
