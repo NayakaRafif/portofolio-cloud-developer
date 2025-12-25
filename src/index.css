@@ -100,12 +100,22 @@ All colors MUST be HSL.
   }
 
   .text-gradient-primary {
-    @apply bg-clip-text text-transparent;
-    background: var(--gradient-primary);
+    /* Fallback color (so text stays visible even if gradient clip isn't supported) */
+    color: hsl(var(--primary));
+    background-image: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 10px 30px hsl(var(--primary) / 0.18));
   }
 
   .text-gradient-accent {
-    @apply bg-clip-text text-transparent;
-    background: var(--gradient-accent);
+    /* Fallback color (so text stays visible even if gradient clip isn't supported) */
+    color: hsl(var(--accent));
+    background-image: var(--gradient-accent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 10px 30px hsl(var(--accent) / 0.18));
   }
 }
