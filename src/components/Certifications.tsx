@@ -64,7 +64,7 @@ const Certifications = () => {
                     </span>
                   </div>
 
-                  <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-smooth">
+                  <h3 className="text-2xl font-bold mb-2 text-foreground group-hover:text-primary transition-smooth">
                     {cert.title}
                   </h3>
 
@@ -72,7 +72,7 @@ const Certifications = () => {
                     {cert.issuer}
                   </p>
 
-                  <p className="text-muted-foreground leading-relaxed mb-6 flex-1">
+                  <p className="text-foreground/70 leading-relaxed mb-6 flex-1">
                     {cert.description}
                   </p>
 
@@ -81,7 +81,7 @@ const Certifications = () => {
                       <Badge
                         key={skillIndex}
                         variant="secondary"
-                        className="bg-secondary/50 hover:bg-primary/20 transition-smooth"
+                        className="bg-secondary hover:bg-primary/20 transition-smooth text-foreground"
                       >
                         {skill}
                       </Badge>

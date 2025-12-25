@@ -47,7 +47,7 @@ const Education = () => {
                   UPN Veteran Yogyakarta
                 </p>
                 
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-foreground/70 leading-relaxed">
                   Menyelesaikan program studi Informatika dengan fokus pada pengembangan 
                   software, web development, dan cloud computing. Memperoleh pemahaman 
                   mendalam tentang algoritma, struktur data, dan best practices dalam 

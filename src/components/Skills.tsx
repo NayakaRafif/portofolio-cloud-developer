@@ -58,7 +58,7 @@ const Skills = () => {
                     >
                       <Badge
                         variant="secondary"
-                        className="bg-secondary hover:bg-primary/20 transition-smooth cursor-default text-sm py-2"
+                        className="bg-secondary hover:bg-primary/20 transition-smooth cursor-default text-sm py-2 text-foreground"
                       >
                         {skill}
                       </Badge>
