@@ -22,8 +22,8 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      value: "GitHub Profile",
-      href: "#",
+      value: "NayakaRafif",
+      href: "https://github.com/NayakaRafif",
       color: "primary",
     },
   ];
