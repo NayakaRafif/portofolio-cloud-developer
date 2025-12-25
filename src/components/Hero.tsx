@@ -63,9 +63,9 @@ const Hero = () => {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-5xl md:text-7xl font-bold mb-6"
           >
-            <span className="text-foreground">Nayaka Rafif Sutaprawira</span>
+            <span className="text-foreground drop-shadow-lg">Nayaka Rafif Sutaprawira</span>
             <br />
-            <span className="text-gradient-primary">Informatika Developer</span>
+            <span className="bg-gradient-to-r from-primary via-cyan-400 to-blue-500 bg-clip-text text-transparent drop-shadow-lg">Informatika Developer</span>
           </motion.h1>
 
           <motion.p
