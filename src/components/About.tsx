@@ -54,10 +54,10 @@ const About = () => {
                   <div className="mb-4 w-14 h-14 rounded-xl gradient-primary flex items-center justify-center shadow-glow group-hover:scale-110 transition-smooth">
                     <Icon className="h-7 w-7 text-primary-foreground" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-smooth">
+                  <h3 className="text-xl font-semibold mb-2 text-foreground group-hover:text-primary transition-smooth">
                     {feature.title}
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-foreground/70 leading-relaxed">
                     {feature.description}
                   </p>
                 </Card>

@@ -57,10 +57,10 @@ const Contact = () => {
               <div className="w-20 h-20 rounded-full gradient-accent flex items-center justify-center shadow-glow mb-6">
                 <MessageSquare className="h-10 w-10 text-accent-foreground" />
               </div>
-              <h3 className="text-2xl font-bold mb-2">
+              <h3 className="text-2xl font-bold mb-2 text-foreground">
                 Siap untuk memulai karir profesional
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-foreground/70">
                 Saya terbuka untuk peluang kerja sebagai Web Developer atau Cloud Engineer
               </p>
             </div>
